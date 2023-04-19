@@ -1,0 +1,10 @@
+credentials:
+    client_id: YOUR_CLIENT_ID
+    client_secret: YOUR_CLIENT_SECRET
+    redirect_uri: https://google.com
+playlist_id: YOUR_PLAYLIST_ID
+market: YOUR_COUNTRY_CODE
+track_limit: 0
+scraping:
+    url: https://everynoise.com/new_releases_by_genre.cgi?region=YOUR_COUNTRY_CODE
+    xpath: //div[contains(@class, 'albumbox')]/a[starts-with(@href, 'spotify:')]/@href
